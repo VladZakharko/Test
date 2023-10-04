@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.page1_Header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.page1_logo{
+    color: #565759;
+    font-family: Potta One;
+    font-size: 38px;
+}
+
+.page1_nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page1_nav a{
+    color: #697390;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    text-decoration: none;
+}
+
+.page1_header_icon{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    color: #6C758D;
+}
